@@ -44,6 +44,16 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    title: "AI-Powered Development",
+    skills: [
+      "Claude Code",
+      "Agent Teams",
+      "MCP Servers",
+      "Tmux Sessions",
+      "AI Workflows",
+    ],
+  },
+  {
     title: "Patterns & Practices",
     skills: [
       "Clean Architecture",
@@ -51,7 +61,6 @@ export const skillCategories: SkillCategory[] = [
       "CQRS",
       "Microservices",
       "MobX",
-      "Claude AI / MCP",
     ],
   },
 ];

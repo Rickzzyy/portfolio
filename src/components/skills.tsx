@@ -12,7 +12,7 @@ export function Skills() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
-        className="mx-auto max-w-3xl"
+        className="mx-auto max-w-5xl"
       >
         <motion.div variants={fadeInUp} className="flex items-center gap-4">
           <span className="font-mono text-accent">04.</span>
@@ -20,7 +20,7 @@ export function Skills() {
           <div className="h-px flex-1 bg-border" />
         </motion.div>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skillCategories.map((category) => (
             <motion.div
               key={category.title}
