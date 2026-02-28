@@ -40,19 +40,28 @@ export function About() {
             className="space-y-4 leading-relaxed text-text-secondary sm:col-span-3"
           >
             <p>
-              I&apos;m a senior full-stack developer with 4+ years of experience
-              building web applications that handle real complexity — from
-              financial data platforms to enterprise management systems.
+              I started coding at 17 and never stopped. Over 4+ years in
+              production I&apos;ve built everything from enterprise management
+              systems with React and Node.js to real-time financial dashboards
+              with Angular and .NET — systems where downtime isn&apos;t an
+              option.
             </p>
             <p>
-              I specialize in React, Angular, and .NET ecosystems, and I care
-              deeply about clean architecture, performance, and developer
-              experience. Every project I take on is built to last.
+              My stack spans both sides: React, Next.js, Angular on the frontend;
+              C#/.NET and Node.js on the backend. I architect with Clean
+              Architecture, DDD and CQRS — not because it&apos;s trendy, but
+              because it keeps complex systems maintainable at scale.
             </p>
             <p>
-              Currently leading frontend development on a Nasdaq-related
-              financial platform, and always exploring new ways to push the web
-              forward.
+              Right now I&apos;m leading frontend on a Nasdaq-related financial
+              platform at SWH SETS, working across React, Angular, C# and Java
+              in a high-stakes environment where every millisecond counts.
+            </p>
+            <p>
+              What sets me apart: I use Claude Code with parallel agent teams,
+              MCP servers and tmux sessions to ship at a speed most teams
+              can&apos;t match solo. AI isn&apos;t a crutch — it&apos;s a
+              multiplier for someone who already knows what they&apos;re doing.
             </p>
           </motion.div>
 
