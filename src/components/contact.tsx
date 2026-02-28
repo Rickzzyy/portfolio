@@ -19,7 +19,7 @@ export function Contact() {
             variants={fadeInUp}
             className="font-mono text-sm text-accent"
           >
-            05. What&apos;s next?
+            06. What&apos;s next?
           </motion.p>
           <motion.h2
             variants={fadeInUp}
