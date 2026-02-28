@@ -40,11 +40,10 @@ export function About() {
             className="space-y-4 leading-relaxed text-text-secondary sm:col-span-3"
           >
             <p>
-              I started coding at 17 and never stopped. Over 4+ years in
-              production I&apos;ve built everything from enterprise management
-              systems with React and Node.js to real-time financial dashboards
-              with Angular and .NET — systems where downtime isn&apos;t an
-              option.
+              Over 4+ years in production I&apos;ve built everything from
+              enterprise management systems with React and Node.js to real-time
+              financial dashboards with Angular and .NET — systems where
+              downtime isn&apos;t an option.
             </p>
             <p>
               My stack spans both sides: React, Next.js, Angular on the frontend;
