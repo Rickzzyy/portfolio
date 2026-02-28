@@ -19,7 +19,7 @@ export const experience: Experience[] = [
       "Working with Angular and TypeScript in a performance-critical, high-stakes environment.",
       "Integrating with backend services using Orval for type-safe API client generation.",
     ],
-    tech: ["Angular", "TypeScript", "Java", "Orval", "REST API"],
+    tech: ["Angular", "React", "TypeScript", "C#", ".NET", "Java", "Orval", "REST API"],
   },
   {
     role: "Full Stack Developer",
