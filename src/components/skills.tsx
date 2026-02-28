@@ -15,22 +15,30 @@ export function Skills() {
         className="mx-auto max-w-3xl"
       >
         <motion.div variants={fadeInUp} className="flex items-center gap-4">
-          <h2 className="text-2xl font-bold">Skills</h2>
+          <span className="font-mono text-accent">04.</span>
+          <h2 className="text-2xl font-bold">Skills & Tools</h2>
           <div className="h-px flex-1 bg-border" />
         </motion.div>
 
-        <div className="mt-10 grid gap-8 sm:grid-cols-2">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2">
           {skillCategories.map((category) => (
-            <motion.div key={category.title} variants={fadeInUp}>
-              <h3 className="font-mono text-sm text-accent">
-                {category.title}
-              </h3>
-              <div className="mt-3 flex flex-wrap gap-2">
+            <motion.div
+              key={category.title}
+              variants={fadeInUp}
+              className="rounded-xl border border-border bg-bg-card p-6 card-hover-glow"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-1 h-6 rounded-full bg-accent" />
+                <h3 className="font-mono text-sm text-accent uppercase tracking-wider">
+                  {category.title}
+                </h3>
+              </div>
+              <div className="mt-4 flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <motion.span
                     key={skill}
                     whileHover={{ scale: 1.05 }}
-                    className="rounded-lg border border-border px-3 py-1.5 text-sm text-text-secondary transition-colors hover:border-accent/40 hover:text-text"
+                    className="rounded-lg bg-bg-secondary border border-transparent px-3 py-1.5 text-sm text-text-secondary hover:border-accent/30 hover:text-text transition-all cursor-default"
                   >
                     {skill}
                   </motion.span>
